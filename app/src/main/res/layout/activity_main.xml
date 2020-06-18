@@ -4,40 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:stretchColumns="*"
     tools:context=".MainActivity">
 
     <TableRow>
         <TextView
+            android:layout_span="6"
             android:gravity="center"
-            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#f20"
+            android:background="#C38076"
             android:textSize="30sp"
             android:text="View 1" />
 
     </TableRow>
     <TableRow>
         <TextView
+            android:layout_span="2"
             android:gravity="center"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="#16DCBE"
             android:textSize="30sp"
             android:text="View 2" />
         <TextView
+            android:layout_span="2"
             android:gravity="center"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="#09E62E"
             android:textSize="30sp"
             android:text="View 2" />
         <TextView
             android:gravity="center"
-            android:layout_weight="1"
+            android:layout_span="2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#67B324"
@@ -47,17 +47,17 @@
     </TableRow>
     <TableRow>
         <TextView
+            android:layout_span="3"
             android:gravity="center"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="#E1931C"
             android:textSize="30sp"
             android:text="View 4" />
         <TextView
             android:gravity="center"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
+            android:layout_span="3"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="#FFEB3B"
             android:textSize="30sp"
